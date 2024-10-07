@@ -1,0 +1,28 @@
+.header{
+    margin: 2rem 0 0 0;
+    height: 8rem;
+    width: 100%;
+}
+.list{
+    margin: 0 5rem;
+    display: flex;
+}
+.list .Link{
+    text-decoration: none;
+}
+.list .Link li img{
+    height: 7rem;
+}
+.list .Link li{
+    color:var(--color2-);
+    font-family: "Mochiy Pop One", sans-serif;
+    margin: 0 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.active{
+    border-bottom: 0.5rem solid var(--color2-);
+}

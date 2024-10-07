@@ -1,0 +1,58 @@
+.login-form{
+    width: 25%;
+    height: 100vh;
+    float: right;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+}
+.close-btn{
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 3.5rem;
+    cursor: pointer;
+
+}
+.logins h3{
+    
+    font-size: 3rem;
+}
+.logins{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.logintab{
+    font-size: 3rem;
+    margin: 2rem;
+    height: 20rem;
+    flex-direction: column;
+    display: flex;
+    h4{
+        font-size: 2rem;
+    }
+}
+.type{
+    margin: 0 1rem;
+    border: 0.1rem solid var(--color1-);
+    height: 4rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    outline: none;
+
+}
+.btn1{
+    margin: 2rem;
+    border-radius: 1rem;
+    height: 4rem;
+    width: 30rem;
+    border: none;
+    background: var(--color1-);
+    color: white;
+    cursor: pointer;
+}

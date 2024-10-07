@@ -1,0 +1,48 @@
+.train-container{
+    margin: 2rem 5rem;
+    height: 25rem;
+    border: 0.1rem solid;
+    border-radius: 1rem;
+}
+
+.trainheader{
+    align-items: center;
+
+    display: flex;
+    height: 6rem;
+    h2{font-size: 4rem;}
+   
+}
+.trainroute{
+    height: 4rem;
+    font-size: 2.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.avaibleseats{
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .seat{
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+    }
+    .book{
+        width: 100%;
+        justify-content: space-around;
+        display: flex;
+    
+    }
+}
+button{
+    height: 5rem;
+    width: 10rem;
+    border: none;
+    background-color: rgb(240, 149, 30);
+    cursor: pointer;
+    border-radius: 1rem;
+}
